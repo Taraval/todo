@@ -1,4 +1,4 @@
-from mod import *
+import m_ssh
 import re
 
 cmd_run = "cat /var/log/syslog | grep DHCPACK | grep 08:00:27:04:f6:6d | tail -1"
